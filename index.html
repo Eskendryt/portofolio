@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+  
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#about">
+        <img src="logo.png" alt="Brand Logo" style="height: 50px;">
+      </a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-warning" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- description -->
+  <div class="container-fluid hero-section d-flex flex-column justify-content-center align-items-center text-center">
+    <h1>I'm a Web-Developer</h1>
+    <p>with expertise in HTML, CSS, and Bootstrap, creating dynamic and user-friendly websites.</p>
+    <div class="m-4">
+      <img src="./photo.jpg" alt="Eskinder Ytbarek" class="img-fluid rounded-circle" style="width: 20vw;" id="image">
+    </div>
+    <div>
+      <a href="#portfolio" class="btn btn-warning me-2">MY WORK</a>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about" class="py-3">
+    <div class="container bg-warning mx-2" style="margin: 20px; margin-right: 20px;">
+      <div class="row align-items-center text-dark">
+        <div class="col-lg-6 ml-2 p-5">
+          <h2 class="section-title text-decoration-underline">About Me</h2>
+          <p>"Hi, I’m Eskinder Ytbarek, a web developer specializing in HTML, CSS, and Bootstrap. I’m passionate about
+            creating modern, responsive websites that not only look great but function smoothly across all devices. My
+            combined expertise in front-end development and design ensures that every project I work on is both visually
+            appealing and user-friendly.</p>
+  
+          <p>In addition to web development, I have a strong background in graphic design and Photoshop, allowing me to
+            craft compelling visuals that elevate the digital experience. I’m also a filmmaker, avid reader, and writer,
+            which inspires my creativity and helps me approach challenges with a fresh perspective. Whether you need a
+            new website, a redesign, or creative input, I’m excited to collaborate and bring your vision to life!"</p>
+  
+          <div class="social-icons d-flex justify-content-center mt-4 p-4">
+            <a href="https://x.com/Eskndr_ytbarek" target="_blank" class="text-dark m-3">
+              <i class="bi bi-twitter social-icon" style="font-size: 2rem;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/eskndr-berhe-a99a75316/" target="_blank" class="text-dark m-3">
+              <i class="bi bi-linkedin social-icon" style="font-size: 2rem;"></i>
+            </a>
+            <a href="https://www.facebook.com/asmarino.forlife" target="_blank" class="text-dark m-3">
+              <i class="bi bi-facebook social-icon" style="font-size: 2rem;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 p-4">
+          <img src="./11 (2).png" class="img-fluid d-none d-lg-block align-items-center" alt="About Me">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Skills -->
+  <section id="services" class="py-5 bg-light text-warning">
+    <div class="container">
+        <h2 class="section-title text-warning text-decoration-underline">Skills</h2>
+        <div class="row">
+
+
+            <div class="col-lg-4 text-center">
+                <div class="p-4">
+                    <i class="bi bi-bootstrap display-4 mb-3"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Leveraging the power of Bootstrap, I create responsive and mobile-first web designs.</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <div class="p-4">
+                    <i class="bi bi-filetype-css display-4 mb-3"></i>
+                    <h3>CSS</h3>
+                    <p>Expert in crafting beautiful and responsive stylesheets to enhance visual appeal and functionality.</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <div class="p-4">
+                    <i class="bi bi-filetype-html display-4 mb-3"></i>
+                    <h3>HTML</h3>
+                    <p>With a strong command of HTML, I create well-structured web pages that form the backbone of effective web design.</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 text-center">
+              <div class="p-4">
+                  <i class="bi bi-brush display-4 mb-3"></i> 
+                  <h3>Adobe Illustrator</h3> 
+                  <p>Creating vector graphics and illustrations with precision and creativity is my forte. I focus on delivering high-quality designs tailored to client needs.</p> 
+                  <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>
+          </div>
+
+        
+          <div class="col-lg-4 text-center">
+              <div class="p-4">
+                  <i class="bi bi-file-earmark-image display-4 mb-3"></i> 
+                  <h3>Adobe Lightroom</h3> 
+                  <p>With expertise in photo editing and enhancement, I utilize Lightroom to bring images to life, ensuring stunning results for every project.</p> 
+                  <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 text-center">
+              <div class="p-4">
+                  <i class="bi bi-file-earmark-image display-4 mb-3"></i> 
+                  <h3>Adobe Photoshop</h3> 
+                  <p>I design stunning visuals and edit images with Adobe Photoshop, focusing on creativity and precision to deliver high-quality results.</p> 
+                  <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+  
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-decoration-underline">Portfolio</h2>
+      <div class="row">
+        <div class="col-lg-4 portfolio-item mb-2">
+          <img src="./5.png" class="img-fluid rounded mb-3"
+            alt="Portfolio Item 1">
+          <div class="portfolio-description text-center">
+            <p>Restaurant Page: HTML Css Bootstrap</p>
+            <a href="https://eskendryt.github.io/restaurant/" target="_blank" class="text-dark">
+              <i class="bi bi-github display-6"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 portfolio-item mb-2">
+          <img src="./6.png" class="img-fluid rounded mb-3"
+            alt="Portfolio Item 2">
+          <div class="portfolio-description text-center">
+            <p>Portofolio website: HTML Css Bootstrap</p>
+            <a href="https://eskendryt.github.io/web3/" target="_blank" class="text-dark">
+              <i class="bi bi-github display-6"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 portfolio-item mb-2">
+          <img src="./7.png" class="img-fluid rounded mb-3"
+            alt="Portfolio Item 2">
+          <div class="portfolio-description text-center">
+            <p>Home Page With Nav-bar: HTML Css</p>
+            <a href="https://eskendryt.github.io/home-page/" target="_blank" class="text-dark">
+              <i class="bi bi-github display-6"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 portfolio-item">
+          <img src="./8.png" class="img-fluid rounded m-3"
+            alt="Portfolio Item 3">
+          <div class="portfolio-description text-center">
+            <p>Log-in Page: HTML Css</p>
+            <a href="https://eskendryt.github.io/log-in/" target="_blank" class="text-dark">
+              <i class="bi bi-github display-6"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-warning">
+    <div class="container mx-5">
+        <h2 class="section-title text-decoration-underline">Contact</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-dark px-5">Send</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+  <div class=" shadow-lg mt-5 bg-secondary">
+    <ul class="list-unstyled text-center d-flex flex-column flex-sm-row justify-content-around">
+       
+        <li>
+            <a href="https://t.me/Eskndrs"><i class="bi bi-telephone text-warning fs-2"></i><br> <p class="text-white">+251900032198</p></a>
+        </li>
+        <li class="m-1 mb-sm-0">
+            <a href="https://maps.app.goo.gl/dYuuSEJMz9bjgps86"><i class="bi bi-geo-alt text-warning fs-2"></i><br> <p class="text-white">Addis Ababa <br> Ethiopia</p></a>
+        </li>
+        <li class="m-1 mb-sm-0">
+           <a href="https://mail.google.com/mail/mu/mp/674/#mn"> <i class="bi bi-envelope text-warning fs-2"></i><br> <p class="text-white">eskndrytbarek323@gmail.com</p></a>
+        </li>
+        
+    </ul>
+</div>
+</footer>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
